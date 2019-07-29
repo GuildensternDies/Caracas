@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Menu from './components/Menu';
 import SocialContact from './components/SocialContact';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <div className="App">
         <SocialContact />
+        <Menu />
       </div>
     </>
   );
