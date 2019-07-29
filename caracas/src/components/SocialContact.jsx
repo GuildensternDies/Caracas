@@ -7,7 +7,7 @@ function SocialContact() {
   return (
 
     <div className="container">
-      <div className="row">
+      <div className="row mt-5 mb-5">
         <div className="col">
           <img className="sm-icons" height="24px" src={sm} alt="..." />
           <img className="sm-icons" height="24px" src={sm} alt="..." />
