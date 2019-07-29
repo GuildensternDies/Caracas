@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Menu from './components/Menu';
 import SocialContact from './components/SocialContact';
+import Location from './components/Location';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="App">
         <SocialContact />
         <Menu />
+        <Location />
       </div>
     </>
   );
