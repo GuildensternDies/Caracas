@@ -1,8 +1,80 @@
 
+/* NAV BAR SECTION */
+
+#nav-bar {
+  background-color: white;
+  display: flex;
+  padding-top: 10px;
+  height: 100px; 
+  position: fixed;
+  width: 100%;
+}
+
+div #logo{
+  width: 30%;
+  margin-left: 15%;
+  align-items: center;
+  display: flex;
+}
+
+#nav-bar img {
+  height: 60%;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 13pt;
+  text-align: center;
+}
+
+div #links{
+  width: 50%;
+  justify-content: space-between;
+  align-content: center;
+  text-align: right;
+  margin-right: 15%;
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+}
+
+div #links button{
+  border-radius: 4px;
+  border: 1px solid black;
+  font-size: 10pt;
+}
+
+
+/* HEADER SECTION */
+
+#header {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+container{
+  margin-top: 8%;
+  width: 70%;
+  height: 1080px;
+  background: url("https://i.imgur.com/44kUpEV.png") no-repeat;
+  background-color: rgb(255, 255, 255, 0.3);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+container button {
+  border-radius: 5px;
+}
+
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .header {
   display: flex;
   height: 100px;
@@ -38,6 +110,7 @@ body {
 .sm-row {
   padding-top: 16px;
 }
+
 .sm-icons {
 
   margin-left:5px;
