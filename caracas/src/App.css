@@ -8,6 +8,7 @@
   height: 100px; 
   position: fixed;
   width: 100%;
+  z-index: 5;
 }
 
 div #logo{
@@ -54,20 +55,27 @@ div #links button{
   justify-content: space-around;
 }
 
+container button {
+  border-radius: 5px;
+  opacity: 1;
+}
+
+container h2{
+  opacity: 1;
+}
+
 container{
   margin-top: 8%;
   width: 70%;
   height: 1080px;
   background: url("https://i.imgur.com/44kUpEV.png") no-repeat;
-  background-color: rgb(255, 255, 255, 0.3);
+  opacity: .3;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-container button {
-  border-radius: 5px;
-}
+
 
 
 body {
@@ -120,4 +128,22 @@ body {
 .arepa-img {
   width: 536px;
   height: 512px;
+}
+
+
+/* PIC SECTION */
+
+#picsection{
+  display: grid;
+  grid-template-rows: 299px 299px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#picsection img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
