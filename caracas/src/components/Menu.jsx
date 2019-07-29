@@ -18,7 +18,7 @@ class Menu extends React.Component {
     });
   }
   render() {
-    return (
+    return {
       <div className="container mt-12">
         <div className="menu">
           <div className="toggle">
