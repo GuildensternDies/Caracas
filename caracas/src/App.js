@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
+import SocialContact from './components/SocialContact';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <div className="App">
+        <SocialContact />
+      </div>
+    </>
   );
 }
 
