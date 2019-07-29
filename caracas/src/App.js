@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import SocialContact from './components/SocialContact';
+import Location from './components/Location';
 import About from './components/About';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <SocialContact />
         <About />
         <Menu />
+        <Location />
       </div>
     </>
 
