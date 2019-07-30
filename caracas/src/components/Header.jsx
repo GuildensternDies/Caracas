@@ -5,7 +5,7 @@ function Header() {
     <div id="header">
       <container>
         <h2>WE ARE AN AREPA BAR IN WILLIAMSBURG, BROOKLYN.</h2>
-        <button>WHAT'S AN AREPA?</button>
+        <a href="/#about-section"><button>WHAT'S AN AREPA?</button></a>
 
 
       </container>

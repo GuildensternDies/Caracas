@@ -16,7 +16,7 @@ function SocialContact() {
         <div className="col-6">
         </div>
         <div className="float-col-right">
-          <button className="flynn-button">Contact</button>
+          <a href="/#location-section"><button className="flynn-button">Contact</button></a>
         </div>
       </div>
     </div>

@@ -10,8 +10,10 @@ function About() {
       <div className="row">
         {/* Left Column */}
         <div className="col mb-5 ml-5 mr-5">
-          <p>What is an Arepa?</p>
-          <p>It’s a corn pancake, with savory or sweet fillings, rooted in Venezuelan tradition. At Caracas, our secret ingredient is consistency. We start with fresh ingredients and a love for the craft of creating the best Venezuelan food day in and day out. No matter where you come from, whether you are a part of the family or a first-time guest, you will feel the warmth of our dedication through the joy of our meals.  </p>
+          <section id="about-section">
+            <p>What is an Arepa?</p>
+            <p>It’s a corn pancake, with savory or sweet fillings, rooted in Venezuelan tradition. At Caracas, our secret ingredient is consistency. We start with fresh ingredients and a love for the craft of creating the best Venezuelan food day in and day out. No matter where you come from, whether you are a part of the family or a first-time guest, you will feel the warmth of our dedication through the joy of our meals.  </p>
+          </section>
         </div>
         <div className="col mb-5">
 
