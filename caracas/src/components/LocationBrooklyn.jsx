@@ -37,7 +37,7 @@ function LocationBrooklyn() {
         <h4 className="location-header">T. 718 218 6060 </h4>
         <a href="https://www.google.com/maps/place/291+Grand+St,+Brooklyn,+NY+11211/@40.7131869,-73.9596126,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2595f962df24f:0xf6c37fab37c2723a!8m2!3d40.7131829!4d-73.9574186" target="_blank"><button className="flynn-button">Get Directions</button></a>
       </div>
-      <img src={bkMap} />
+      {/* <img src={bkMap} /> */}
     </div>
   )
 }

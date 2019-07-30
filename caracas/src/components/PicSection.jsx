@@ -2,6 +2,7 @@ import React from 'react'
 
 function PicSection() {
   return (
+
     <div id="picsection">
       <img src="https://i.imgur.com/POXinO2.png"></img>
       <img src="https://i.imgur.com/uQFi7ql.png"></img>
@@ -12,6 +13,7 @@ function PicSection() {
       <img src="https://i.imgur.com/pU5eTab.png"></img>
       <img src="https://i.imgur.com/xQlxWhJ.png"></img>
     </div>
+
   )
 }
 
