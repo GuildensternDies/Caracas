@@ -28,8 +28,10 @@ function LocationBrooklyn() {
         </div>
       </div>
       <div className="row">
-        <h3 className="menu-header">Location</h3>
-        <h4 className="location-header">WILLIAMSBURG</h4>
+        <section id="location-section">
+          <h3 className="menu-header">Location</h3>
+          <h4 className="location-header">WILLIAMSBURG</h4>
+        </section>
         <h4 className="location-header">291 GRAND STREET</h4>
         <h4 className="location-header">BROOKLYN NY 11211</h4>
         <h4 className="location-header">T. 718 218 6060 </h4>

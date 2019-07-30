@@ -8,8 +8,8 @@ function Nav() {
       </div>
 
       <div id="links">
-        <a href="/menu-section">Menu</a>
-        <a href="/hours-section">Hours & Location</a>
+        <a href="/#menu-section">Menu</a>
+        <a href="/#location-section">Hours & Location</a>
         <a href="https://ordering.chownow.com/order/4265/locations"><button>ORDER ONLINE</button></a>
       </div>
     </nav>

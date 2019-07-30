@@ -18,7 +18,7 @@ class Menu extends React.Component {
     });
   }
   render() {
-    return {
+    return (
       <div className="container mt-12">
         <div className="menu">
           <div className="toggle">
@@ -35,8 +35,10 @@ class Menu extends React.Component {
               <div className="row">
                 <div className="col-6">
                   {/* <div className="arepa-row"> */}
-                  <h3 className="menu-header">Arepas</h3>
-                  <h4 className="menu-item">DE PABELLON      11</h4>
+                  <section id="menu-section">
+                    <h3 className="menu-header">Arepas</h3>
+                    <h4 className="menu-item">DE PABELLON      11</h4>
+                  </section>
                   <p>shredded beef, black beans, cotija cheese, fried</p>
                   <p>sweet plantains</p>
                   <h4 className="menu-item">MISS PIGGY     10.50</h4>
