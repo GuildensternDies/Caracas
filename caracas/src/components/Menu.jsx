@@ -18,16 +18,16 @@ class Menu extends React.Component {
     });
   }
   render() {
-    return {
+    return (
       <div className="container mt-12">
         <div className="menu">
           <div className="toggle">
             <div className="row">
               <div className="col-6">
-                <h2 className="switch" onClick={this.switchToFood}>Menu</h2>
+                <h2 className="switch food" onClick={this.switchToFood}>MENU</h2>
               </div>
               <div className="col-6">
-                <h2 className="switch" onClick={this.switchToDrinks}>Cocktails</h2>
+                <h2 className="switch drink" onClick={this.switchToDrinks}>COCKTAILS</h2>
               </div>
             </div>
             {(this.state.drinkSwitch === false) &&
@@ -35,7 +35,7 @@ class Menu extends React.Component {
               <div className="row">
                 <div className="col-6">
                   {/* <div className="arepa-row"> */}
-                  <h3 className="menu-header">Arepas</h3>
+                  <h3 className="menu-header">AREPAS</h3>
                   <h4 className="menu-item">DE PABELLON      11</h4>
                   <p>shredded beef, black beans, cotija cheese, fried</p>
                   <p>sweet plantains</p>

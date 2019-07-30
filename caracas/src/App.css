@@ -92,7 +92,23 @@ body {
   padding: 0 5%;
 }
 
+/* Menu Section */
+.switch {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.switch:hover {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+.menu-header {
+  text-align: left;
+  border-bottom: 4px solid black;
+}
 
+.menu-item {
+  padding-top: 32px;
+}
 
 /* Flynn Button */
 .flynn-button {
