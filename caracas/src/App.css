@@ -147,7 +147,7 @@ container h2{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .about-column {
@@ -185,13 +185,50 @@ container h2{
 }
 
 
+/*  */
+
+.location-container{
+  margin-left: 263px;
+  margin-right: 236px;
+  margin-bottom: 8px;
+  margin-top: 48px;
+}
+
+.location-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+.orange-column {
+  width: 40%;
+  margin-top:62px;
+  margin-left: 72px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  background-color: orange;
+}
+
+.black-column {
+  width: 50%;
+  background-color: black;
+}
+
+.pink-column {
+  width: 50%;
+  margin-left:20px;
+  background-color: pink;
+}
+
 
 /* Menu Section */
 
 .menu-container{
   margin-left: 263px;
   margin-right: 236px;
-  padding-bottom: 85px;
+  margin-bottom: 85px;
 }
 
 .switch {
@@ -206,6 +243,7 @@ container h2{
 .menu-header {
   text-align: left;
   border-bottom: 4px solid black;
+  width: 100%;
 }
 
 .menu-item {
@@ -219,6 +257,22 @@ container h2{
 
 .switch-drink{
   padding-bottom: 64px;
+}
+
+
+
+/* Location */
+
+
+.switch-bk{
+  display: flex;
+  padding-bottom: 64px;
+  background-color: chocolate;
+}
+
+.switch-rock{
+  padding-bottom: 64px;
+  background-color: black;
 }
 
 
@@ -265,15 +319,45 @@ container h2{
 
 #picsection{
   display: grid;
-  grid-template-rows: 299px 299px;
+  grid-template-rows: 250px 250px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px 10px;
   margin-left: 18%;
   margin-right: 18%;
+  margin-bottom: 85px;
 }
 
 #picsection img {
   height: 100%;
   object-fit: cover;
   width: 100%;
+}
+
+.map-area {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+
+.footer-area {
+  display: flex;
+  align-content: left;
+  justify-content: left;
+  background-color: black;
+}
+
+.footer-p {
+  display: block;
+  margin-top: 49px;
+  margin-left: 45px;
+  margin-bottom: 43px;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+
+@media only screen and (max-width:25em) { 
+	/* CSS rules here */
 }

@@ -20,8 +20,6 @@ class Menu extends React.Component {
   render() {
     return (
       <div className="menu-container">
-        {/* <div className="menu">
-          <div className="toggle"> */}
         <div className="row">
           <div className="col-6">
             <h2 className="switch-food" onClick={this.switchToFood}>MENU</h2>
@@ -163,8 +161,7 @@ class Menu extends React.Component {
           </div>
         }
       </div>
-      //   </div >
-      // </div >
+
     )
   }
 }

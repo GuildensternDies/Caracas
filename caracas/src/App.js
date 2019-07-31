@@ -4,9 +4,10 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import SocialContact from './components/SocialContact';
-import Location from './components/Location';
+import Locations from './components/Locations';
 import About from './components/About';
 import PicSection from './components/PicSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <About />
         <Menu />
         <PicSection />
-        <Location />
+        <Locations />
+        <Footer />
       </div>
     </>
 
