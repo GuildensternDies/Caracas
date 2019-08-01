@@ -28,14 +28,20 @@ class Location extends React.Component {
 
   render() {
     return (
-      <div className="location">
-        <h2 className="switch" onClick={this.locationToggleBrooklyn}>Williamsburg</h2>
-        <h2 className="switch" onClick={this.locationToggleRockaway}>Rockaway</h2>
-        {(this.state.location === 'Brooklyn') &&
-          <LocationBrooklyn />}
-        {(this.state.location === 'Rockaway') &&
-          <LocationRockaway />}
-      </div>
+      <>
+        <div className="menu-container">
+          <div className="switch-bk">
+            <h2 onClick={this.locationToggleBrooklyn}>Williamsburg</h2>
+          </div>
+          <div className="switch-rock">
+            <h2 onClick={this.locationToggleRockaway}>Rockaway</h2>
+          </div>
+          {(this.state.location === 'Brooklyn') &&
+            <LocationBrooklyn />}
+          {(this.state.location === 'Rockaway') &&
+            <LocationRockaway />}
+        </div>
+      </>
     )
   }
 }

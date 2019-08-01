@@ -35,7 +35,7 @@ function LocationRockaway() {
         <h4 className="location-header">T. 718 218 6060 </h4>
         <a href="https://www.google.com/maps/place/Caracas+Arepa+Bar+(Summer+Only)/@40.5805721,-73.828269,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2683139952b0f:0x39e1e6e6206283c6!8m2!3d40.580568!4d-73.826075" target="_blank"><button className="flynn-button">Get Directions</button></a>
       </div>
-      <img src={rockMap} />
+      {/* <img src={rockMap} /> */}
     </div>
   )
 }

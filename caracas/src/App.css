@@ -1,25 +1,38 @@
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* NAV BAR SECTION */
 
 #nav-bar {
   background-color: white;
   display: flex;
+  flex-flow: column wrap;
+  align-content: stretch;
   padding-top: 10px;
   height: 100px; 
   position: fixed;
+  padding-left: 250px;
+  padding-right: 250px;
   width: 100%;
   z-index: 5;
 }
 
 div #logo{
-  width: 30%;
-  margin-left: 15%;
-  align-items: center;
-  display: flex;
+  width: 161px;
+  height: 58px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 #nav-bar img {
-  height: 60%;
+  width: 161px;
+  height: 58px;
 }
 
 #nav-bar a {
@@ -30,14 +43,13 @@ div #logo{
 }
 
 div #links{
-  width: 50%;
   justify-content: space-between;
-  align-content: center;
-  text-align: right;
-  margin-right: 15%;
+  align-content: right;
   display: flex;
   align-items: center;
-  margin-left: 30%;
+  margin-top:40px;
+  font-size: 13pt;
+
 }
 
 div #links button{
@@ -53,6 +65,7 @@ div #links button{
   display: flex;
   align-content: center;
   justify-content: space-around;
+  padding-top: 100px;
 }
 
 container button {
@@ -64,38 +77,164 @@ container h2{
   opacity: 1;
 }
 
-container{
-  margin-top: 8%;
-  width: 70%;
-  height: 1080px;
-  background: url("https://i.imgur.com/44kUpEV.png") no-repeat;
-  opacity: .3;
+.hero-container{
+  height:900px;
+  flex-direction: column;
+  background: url('./assets/hero.png') no-repeat;
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 
-
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-  display: flex;
-  height: 100px;
-  background-color: white;
+.hero-text{
+  color: black;
+  font-size: 30pt;
+  width: 60%;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  padding: 0 5%;
+  justify-content: center;
 }
+
+.hero-button-container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Hero Button */
+.hero-button {
+  -webkit-appearance: none;
+  width: 175px;
+  height: 30px;
+  margin-left:20.5px;
+  margin-right: 20.5px;
+  background-color: white;
+  border: .5px solid black;
+  border-radius: 5px;
+  font-size: 13px;
+  transition: ease-in-out .25s;
+}
+
+.hero-button:hover {
+  background-color: #000033;
+  color: white;
+  transition: ease-in-out .25s;
+}
+
+
+/* Social Wrapper */
+
+.social-wrapper{
+  margin-right: 362px;
+  margin-left: 362px;
+  margin-bottom: 48px;
+}
+
+
+/* About */
+
+.about-container{
+  margin-left: 263px;
+  margin-right: 236px;
+  margin-bottom: 70px;
+}
+
+.about-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* width: 100%; */
+}
+
+.about-column {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+
+}
+
+.blue-column {
+  width: 40%;
+  margin-top:62px;
+  margin-left: 72px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+.blue-column-title{
+  font-size: 20px;
+}
+
+.blue-column-p{
+  font-size: 15px;
+  line-height: 18pt;
+  letter-spacing: 1pt;
+}
+
+.green-column {
+  width: 50%;
+}
+
+.green2-column {
+  width: 50%;
+  margin-left:20px;
+}
+
+
+/*  */
+
+.location-container{
+  margin-left: 263px;
+  margin-right: 236px;
+  margin-bottom: 8px;
+  margin-top: 48px;
+}
+
+.location-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+.orange-column {
+  width: 40%;
+  margin-top:62px;
+  margin-left: 72px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  background-color: orange;
+}
+
+.black-column {
+  width: 50%;
+  background-color: black;
+}
+
+.pink-column {
+  width: 50%;
+  margin-left:20px;
+  background-color: pink;
+}
+
 
 /* Menu Section */
+
+.menu-container{
+  margin-left: 263px;
+  margin-right: 236px;
+  padding-bottom: 85px;
+}
+
 .switch {
   text-align: center;
   margin-bottom: 64px;
+  color: royalblue
 }
 .switch:hover {
   border-bottom: 1px solid black;
@@ -104,11 +243,39 @@ body {
 .menu-header {
   text-align: left;
   border-bottom: 4px solid black;
+  width: 100%;
 }
 
 .menu-item {
   padding-top: 32px;
 }
+
+.switch-food{
+  display: flex;
+  padding-bottom: 64px;
+}
+
+.switch-drink{
+  padding-bottom: 64px;
+}
+
+
+
+/* Location */
+
+
+.switch-bk{
+  display: flex;
+  padding-bottom: 64px;
+  background-color: chocolate;
+}
+
+.switch-rock{
+  padding-bottom: 64px;
+  background-color: black;
+}
+
+
 
 /* Flynn Button */
 .flynn-button {
@@ -131,8 +298,29 @@ body {
 }
 
 
+/* Map Button */
+
+.map-button {
+  -webkit-appearance: none;
+  width: 141px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 13px;
+  transition: ease-in-out .25s;
+}
+
+.map-button:hover {
+  background-color: #000033;
+  color: white;
+  transition: ease-in-out .25s;
+}
+
+
 .sm-row {
   padding-top: 16px;
+  color: mediumturquoise;
 }
 
 .sm-icons {
@@ -142,8 +330,8 @@ body {
 }
 
 .arepa-img {
-  width: 536px;
-  height: 512px;
+  width: 90%;
+  /* height: 512px; */
 }
 
 
@@ -151,15 +339,46 @@ body {
 
 #picsection{
   display: grid;
-  grid-template-rows: 299px 299px;
+  grid-template-rows: 250px 250px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px 10px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-bottom: 85px;
 }
 
 #picsection img {
   height: 100%;
   object-fit: cover;
   width: 100%;
+}
+
+.map-area {
+  display: flex;
+  width: 60%;
+  align-content: center;
+  justify-content: space-around;
+}
+
+
+.footer-area {
+  display: flex;
+  align-content: left;
+  justify-content: left;
+  background-color: black;
+}
+
+.footer-p {
+  display: block;
+  margin-top: 49px;
+  margin-left: 45px;
+  margin-bottom: 43px;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+
+@media only screen and (max-width:25em) { 
+	/* CSS rules here */
 }
