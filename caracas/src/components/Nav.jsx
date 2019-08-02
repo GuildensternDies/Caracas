@@ -10,7 +10,7 @@ function Nav() {
       <div id="links">
         <a href="/#menu-section">Menu</a>
         <a href="/#location-section">Hours & Location</a>
-        <a href="https://ordering.chownow.com/order/4265/locations"><button className="flynn-button">ORDER ONLINE</button></a>
+        <a href="https://ordering.chownow.com/order/4265/locations" target="_blank"><button className="flynn-button">ORDER ONLINE</button></a>
       </div>
     </nav>
   )

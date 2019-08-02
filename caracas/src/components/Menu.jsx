@@ -35,7 +35,7 @@ class Menu extends React.Component {
               {/* <div className="arepa-row"> */}
 
               <section id="menu-section">
-                <h3 className="menu-header">Arepas</h3>
+                <h3 className="menu-header">AREPAS</h3>
                 <p className="blue-column-title">DE PABELLON      11</p>
               </section>
 
