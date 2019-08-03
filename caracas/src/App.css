@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Avenir Next LT Pro Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Avenir Next LT Pro Condensed'), url('/assets/AvenirNextLTPro-Cn.woff') format('woff');
+}
+
+p {
+  font-family: 'Avenir Next LT Pro Condensed';
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
