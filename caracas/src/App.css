@@ -316,6 +316,10 @@ img.logo {
   transition: ease-in-out .25s;
 }
 
+.visible-mobile {
+  display: none;
+}
+
 /* Flynn Button */
 
 .flynn-button {
@@ -891,3 +895,13 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+/* Button swap mobile */
+@media (max-width: 550px) {
+  .visible-mobile {
+    display: block;
+  }
+  .visible-desktop {
+    display: none;
+  }
+}
