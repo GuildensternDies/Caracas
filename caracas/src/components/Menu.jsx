@@ -23,58 +23,7 @@ class Menu extends React.Component {
         <div className="menu-container">
           <div className="row">
             <div className="col-6">
-<<<<<<< HEAD
-              {/* <div className="arepa-row"> */}
-
-              <section id="menu-section">
-                <h3 className="menu-header">AREPAS</h3>
-                <p className="blue-column-title">DE PABELLON      11</p>
-              </section>
-
-              <p className="blue-column-p">shredded beef, black beans, cotija cheese, fried</p>
-              <p className="blue-column-p">sweet plantains</p>
-              <p className="blue-column-title">MISS PIGGY     10.50</p>
-              <p className="blue-column-p">Roasted pork shoulder, cheddar, tomatoes, </p>
-              <p className="blue-column-p">pickled onions</p>
-              <p className="blue-column-p">+ avocado  3</p>
-              <p className="blue-column-p">+ fried sweet plantains  2</p>
-              <p className="blue-column-title">LA SUREÑA     10.50</p>
-              <p className="blue-column-p">Grilled chicken, chorizo, avocado, chimi-</p>
-              <p className="blue-column-p">churi sauce</p>
-              <p className="blue-column-title">LA DEL GATO     10.50</p>
-              <p className="blue-column-p">guayanés cheese, fried sweet</p>
-              <p className="blue-column-p">plantains, avocado </p>
-              <p className="blue-column-p">+ chicken  3</p>
-              <p className="blue-column-p">+ black beans  2</p>
-              <p className="blue-column-title">LOS MUCHACHOS     10</p>
-              <p className="blue-column-p">chorizo, grilled queso blanco with jalapeños, </p>
-              <p className="blue-column-p">sauteed peppers</p>
-              <p className="blue-column-p">+ avocado  3</p>
-              <p className="blue-column-title">LA MULATA     10</p>
-              <p className="blue-column-p">grilled queso blanco, jalapeños, black beans, </p>
-              <p className="blue-column-p">sauteed red peppers, fried sweet plantains</p>
-              <p className="blue-column-p">+ avocado  3</p>
-              <p className="blue-column-p">pickled onions  1.50</p>
-              <p className="blue-column-title">HOT QUEEN     10.50</p>
-              <p className="blue-column-p">Pulled chicken, sauteed peppers, onions, scallions,</p>
-              <p className="blue-column-p">avocado, herb mayo</p>
-              <p className="blue-column-title">REINA PEPIADA     10</p>
-              <p className="blue-column-p">Avocado chicken salad with onion, cilantro, mayo</p>
-              <p className="blue-column-p">+ fried sweet plantains  2</p>
-              <p className="blue-column-title">VOLVERÉ     10</p>
-              <p className="blue-column-p">Guayanés cheese, tomato, avocado, sauteed peppers, </p>
-              <p className="blue-column-p">chimi-churri sauce</p>
-              <p className="blue-column-title">PLAYA DELUXE     11</p>
-              <p className="blue-column-p">Pan-seared tilapia, roasted garlic, sauteed shiitake,</p>
-              <p className="blue-column-p">avocado, pickled onions, herb mayo</p>
-              <p className="blue-column-title">MIL Y UNA NOCHE     9.50</p>
-              <p className="blue-column-p">Baked tofu, hearty rainbow slaw, lemon-tahini </p>
-              <p className="blue-column-p">dressing, avocado </p>
-              <p className="blue-column-p">+ black beans  2</p>
-              <p className="blue-column-p">+ fried sweet plantains  2</p>
-=======
               <h2 className="switch-food" onClick={this.switchToFood}>MENU</h2>
->>>>>>> sb-mobile-css
             </div>
             <hr />
             <div className="col-6">

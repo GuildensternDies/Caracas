@@ -121,7 +121,6 @@ class Locations extends React.Component {
 
 
       </div>
-      </div >
     )
   }
 }
