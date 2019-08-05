@@ -6,7 +6,7 @@ import about2 from '../assets/asset-3.svg'
 function About() {
 
   return (
-    <>
+    <div id="about-section">
       <div className="container is-fluid">
         <div className="row">
 
@@ -44,7 +44,7 @@ function About() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
