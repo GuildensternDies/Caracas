@@ -1,17 +1,25 @@
 import React from 'react'
+import calogo from '../assets/caracas-logo.svg'
 
 function Header() {
   return (
-    <div id="header">
-      <div className="hero-container">
-        <p className="hero-text">WE ARE AN AREPA BAR IN WILLIAMSBURG, BROOKLYN.</p>
-        <div className='hero-button-container'>
-          <a href="/#about-section"><button className="hero-button">WHAT'S AN AREPA?</button></a>
+    <>
+      <div className="container is-fluid">
+        <div className="row">
+          <div className="one-half column">
+            <img className="logo" src={calogo} />
+          </div>
+          <div className="one-half column">
+            <ul className="mainNav">
+              <li><a href="/#menu-section">Menu</a></li>
+              <li><a href="/#location-section">Hours & Location</a></li>
+              <li><a href="https://ordering.chownow.com/order/4265/locations"><button className="flynn-button">ORDER ONLINE</button></a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
-
 
 export default Header;
