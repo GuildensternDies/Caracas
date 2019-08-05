@@ -253,6 +253,7 @@ img.logo {
 }
 
 
+
 /* About Box */
 
 .about-text-left {
@@ -274,12 +275,12 @@ img.logo {
 /* Pic Section */
 #picsection{
   display: grid;
-  grid-template-rows: 250px 250px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 30px 10px;
   margin-bottom: 85px;
   margin-top: 60px;
 }
+
 
 
 .hero-text{
@@ -413,14 +414,17 @@ img.logo {
   font-size: 30pt;
   padding-bottom: 64px;
   float: right;
-  margin-right: 48px;
+  margin-right: 20px;
 }
 
 .switch-drink{
-  padding-bottom: 64px;
+  display: flex;
   font-size: 30pt;
-
+  padding-bottom: 64px;
+  float: left;
+  margin-right: 48px;
 }
+
 
 .menu-title{
   font-size: 25px;
@@ -921,4 +925,28 @@ there.
   .visible-desktop {
     display: none;
   }
+
+  #picsection{
+    grid-template-columns: 1fr 1fr;
+  }
+  .switch-drink {
+    font-size: 2em;
+    padding-bottom: 2px;
+  }
+
+  .switch-food {
+    font-size: 2em;
+    padding-bottom: 2px;
+  }
+  .arepa-responsive-image {
+    margin-bottom: 20px;
+  }
+  .about-text-right{
+    margin-top: 12px;
+  }
+  .hero-container{
+    height: 900px;
+  }
+
+
 }

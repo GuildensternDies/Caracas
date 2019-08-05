@@ -57,6 +57,7 @@ class Locations extends React.Component {
                 <p className="location-p">FRIDAY</p>
                 <p className="location-p">SATURDAY</p>
               </div>
+
               <div className="col-3">
                 <p className="location-p">12PM - 11PM</p>
                 <p className="location-p">12PM - 11PM</p>
