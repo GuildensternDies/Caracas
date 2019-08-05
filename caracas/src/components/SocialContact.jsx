@@ -10,16 +10,11 @@ function SocialContact() {
     <>
       <div className="container is-fluid">
         <div className="social-wrapper">
-          <div className="columns">
-            <div className="one-third column">
-              <img className="sm-icons" src={fb} alt="..." />
-              <img className="sm-icons" src={ig} alt="..." />
-              <img className="sm-icons" src={tw} alt="..." />
-            </div>
-
-            <div className="one-third column">
-              <a href="/#location-section"><button className="flynn-button">Contact</button></a>
-            </div>
+          <img className="sm-icons" src={fb} alt="..." />
+          <img className="sm-icons" src={ig} alt="..." />
+          <img className="sm-icons" src={tw} alt="..." />
+          <div id="button-right">
+            <a href="/#location-section"><button className="flynn-button">Contact</button></a>
           </div>
         </div>
       </div>
