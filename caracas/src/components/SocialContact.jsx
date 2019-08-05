@@ -10,9 +10,9 @@ function SocialContact() {
     <>
       <div className="container is-fluid">
         <div className="social-wrapper">
-          <img className="sm-icons" src={fb} alt="..." />
-          <img className="sm-icons" src={ig} alt="..." />
-          <img className="sm-icons" src={tw} alt="..." />
+          <a href="https://www.facebook.com/CaracasArepaBar/?ref=ts" target="_blank"><img className="sm-icons" src={fb} alt="..." /></a>
+          <a href="https://www.instagram.com/caracasarepabar/" target="_blank"><img className="sm-icons" src={ig} alt="..." /></a>
+          <a href="https://twitter.com/caracasarepabar" target="_blank"><img className="sm-icons" src={tw} alt="..." /></a>
           <div id="button-right">
             <a href="/#location-section"><button className="flynn-button">Contact</button></a>
           </div>
