@@ -339,6 +339,12 @@ img.logo {
   transition: ease-in-out .25s;
 }
 
+#button-right {
+  text-align: right;
+  margin-top: -30px;
+  margin-right: 90px;
+}
+
 
 /* Contact Button */
 
