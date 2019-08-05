@@ -2,7 +2,7 @@ import React from 'react'
 import rockMap from '../assets/rockMap.svg'
 import bkMap from '../assets/bkMap.svg'
 
-// Locations
+// Locations BK & Rockaway
 
 class Locations extends React.Component {
   constructor(props) {
