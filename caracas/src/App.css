@@ -212,6 +212,7 @@ img.whatIDo {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 100px;
 }
 
 
@@ -480,6 +481,14 @@ letter-spacing: 1pt;
     margin-left: 1%;
   }
 
+  .fix-scroll {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+  }  
+
+
 /* Footer */
 
 .footer-area {
@@ -729,11 +738,12 @@ ul.mainNav {
 		border-left: none;
 		display: inline-block;
     clear: both;
+    padding-top: 15px;
 	}
 	
 	ul.mainNav li {
 		float: left;
-		padding: 0;
+    padding: 0;
 }
 	
 	ul.mainNav li a {
@@ -744,7 +754,8 @@ ul.mainNav {
 		font-size: 1.2rem;
 		letter-spacing: 0.1rem; 
 		font-weight: 600;
-		display: block;
+    display: block;
+    color: black;
 	}
 	
 	ul.mainNav li a.active  {

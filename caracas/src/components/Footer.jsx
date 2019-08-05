@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className="container">
       <div className="footer-area">
-        <p className="footer-p">order online</p>
+        <a href="https://ordering.chownow.com/order/4265/locations"><p className="footer-p">order online</p></a>
         <br />
         <p className="footer-p">email us for catering</p>
         <br />
